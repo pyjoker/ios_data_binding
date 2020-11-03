@@ -13,6 +13,8 @@
 		0424448A254EA61600EB72C3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04244489254EA61600EB72C3 /* Preview Assets.xcassets */; };
 		04244495254EA61600EB72C3 /* ios_data_bindingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04244494254EA61600EB72C3 /* ios_data_bindingTests.swift */; };
 		042444A0254EA61600EB72C3 /* ios_data_bindingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0424449F254EA61600EB72C3 /* ios_data_bindingUITests.swift */; };
+		042444B1254EBBAC00EB72C3 /* Role.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042444B0254EBBAC00EB72C3 /* Role.swift */; };
+		04E48BD825519A4500719FED /* SecondPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E48BD725519A4500719FED /* SecondPage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +47,8 @@
 		0424449B254EA61600EB72C3 /* ios_data_bindingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ios_data_bindingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0424449F254EA61600EB72C3 /* ios_data_bindingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_data_bindingUITests.swift; sourceTree = "<group>"; };
 		042444A1254EA61600EB72C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		042444B0254EBBAC00EB72C3 /* Role.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Role.swift; sourceTree = "<group>"; };
+		04E48BD725519A4500719FED /* SecondPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondPage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +79,7 @@
 		04244476254EA61500EB72C3 = {
 			isa = PBXGroup;
 			children = (
+				04E48BD725519A4500719FED /* SecondPage.swift */,
 				04244481254EA61500EB72C3 /* ios_data_binding */,
 				04244493254EA61600EB72C3 /* ios_data_bindingTests */,
 				0424449E254EA61600EB72C3 /* ios_data_bindingUITests */,
@@ -98,6 +103,7 @@
 				04244482254EA61500EB72C3 /* ios_data_bindingApp.swift */,
 				04244484254EA61500EB72C3 /* ContentView.swift */,
 				04244486254EA61600EB72C3 /* Assets.xcassets */,
+				042444B0254EBBAC00EB72C3 /* Role.swift */,
 				0424448B254EA61600EB72C3 /* Info.plist */,
 				04244488254EA61600EB72C3 /* Preview Content */,
 			);
@@ -259,7 +265,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04E48BD825519A4500719FED /* SecondPage.swift in Sources */,
 				04244485254EA61500EB72C3 /* ContentView.swift in Sources */,
+				042444B1254EBBAC00EB72C3 /* Role.swift in Sources */,
 				04244483254EA61500EB72C3 /* ios_data_bindingApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
